@@ -266,8 +266,6 @@ namespace ToTKLIE
                     selectedItem = (int)pic.Tag;
                     label2.Text = $"Index: {selectedItem + 1}";
                     EditItem = item;
-                    //Debug.WriteLine(BitConverter.ToString(item.Modifier));
-                    //ItemNameCB.SelectedIndex = ItemDictionary.ArmorDictionary.Keys.ToList().IndexOf(item.ID);
                     UpdateEditor(EditItem);
                 };
                 pic.MouseEnter += (s, e) => { pic.BackColor = Color.LightCyan; };
@@ -506,6 +504,7 @@ namespace ToTKLIE
                         ItemProperty2.Value = ItemType.Quantity;
                         ItemProperty3.Value = ItemType.Health;
                         ItemProperty4.Value = ItemType.Duration;
+                        ItemModifierCB.SelectedValue = BitConverter.ToString(ItemType.Modifier).Replace("-", "");
                         break;
                 }
 
