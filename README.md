@@ -1,5 +1,5 @@
 # TotKLIE
-### A live inventory editor for The Legend of Zelda: Tears of the Kingdom using sys-botbase
+### A live inventory editor for The Legend of Zelda: Tears of the Kingdom version 1.1.2 using sys-botbase
 
 ## Usage
 After connecting to and loading a page of items from your inventory, clicking on an item will bring it up in the editor on the left, after making any changes to the item you like click the "Update" button and that will update the items data on the grid to the right, then click the "Write Data" button and then the 
